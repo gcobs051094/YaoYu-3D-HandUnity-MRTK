@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6020100760475116594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6020100760475116592}
+  - component: {fileID: 6020100760475116593}
+  m_Layer: 0
+  m_Name: XRSimulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6020100760475116592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020100760475116594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 112.28764, y: 149.0311, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6020100760475116593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020100760475116594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2c20d63e4ade14baec8eb121d8f4ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HMDForward:
+    m_UseReference: 0
+    m_Action:
+      m_Name: HMD Forward
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 632af045-829f-47f3-9e1b-c79a6b876241
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 2a52a17d-0b01-4ce8-9688-523c53b71890
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: HMD Forward
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  HMDBack:
+    m_UseReference: 0
+    m_Action:
+      m_Name: HMD Back
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 828b4b91-e778-4516-a8d1-56604578dfc1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: d60d7095-a788-40dc-ae9e-f992641008c3
+        m_Path: <Keyboard>/s
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: HMD Back
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  HMDLeft:
+    m_UseReference: 0
+    m_Action:
+      m_Name: HMD Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 41d23723-707c-4443-9a31-adda1d1c5b3b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: b60f71fb-32ee-4bdf-8ebb-3279d4bf58ed
+        m_Path: <Keyboard>/a
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: HMD Left
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  HMDRight:
+    m_UseReference: 0
+    m_Action:
+      m_Name: HMD Right
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e5fa71e3-548c-4088-a721-c782150b77be
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 35ad2dab-715f-4982-8470-fd8791a7e8ca
+        m_Path: <Keyboard>/d
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: HMD Right
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  Mouse0:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mouse 0
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c81a8a84-5b2d-49be-890a-f06a308d8653
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: e0e4b58d-4ef9-49a0-95c5-1452f8535037
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Mouse 0
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  Mouse1:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mouse 1
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: edb66bc3-52ee-43bb-90a1-2226c6992862
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 4cc78e69-7100-4d12-add4-895975b52229
+        m_Path: <Mouse>/rightButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Mouse 1
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  MouseAxis:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Mouse Axis
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 79816187-bc62-418e-a04a-7f98e8fdbd06
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 89f9f4ac-bf18-45b0-9192-d63676c3f96d
+        m_Path: <Mouse>/delta
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Mouse Axis
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  Reset:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Reset
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 5b87c5c8-6ebc-4268-a2f3-e6fe64900687
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: a0e67b3d-4a93-4948-b066-76222a1bc858
+        m_Path: <Keyboard>/escape
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Reset
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  ControllerPress:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Controller Press
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6a997ceb-fc12-4565-b013-aaf979986e44
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 13ce0608-28f0-4016-b0a6-34a477fb29c0
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Press
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  speed: 0.8

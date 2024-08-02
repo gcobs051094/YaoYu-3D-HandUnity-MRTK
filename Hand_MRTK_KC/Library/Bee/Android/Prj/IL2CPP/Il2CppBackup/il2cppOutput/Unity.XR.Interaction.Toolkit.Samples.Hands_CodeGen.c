@@ -1,0 +1,405 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void StartHand::OnEnable()
+extern void StartHand_OnEnable_mAB30FBFAA0BFA05D782AE8D39D1EB7D21EA300F7 (void);
+// 0x00000002 System.Void StartHand::OnDisable()
+extern void StartHand_OnDisable_m287FC45E698FF9655688C9BC087A5AAA77676101 (void);
+// 0x00000003 System.Void StartHand::Update()
+extern void StartHand_Update_mB7B0779288CC4D20139FB435FF2606224BFD35B4 (void);
+// 0x00000004 System.Void StartHand::yyss_unityxr_setHand(System.Boolean)
+extern void StartHand_yyss_unityxr_setHand_mA8B1DFEC4295938DE77506B3EA7E43E18C53D241 (void);
+// 0x00000005 System.Void StartHand::YYSS_unityxr_setHand(System.Boolean)
+extern void StartHand_YYSS_unityxr_setHand_mA8C84816329FB9CE9636101A7E707A675C9D5203 (void);
+// 0x00000006 System.Void StartHand::YYSS_StartHand()
+extern void StartHand_YYSS_StartHand_mEF96D82116C4F26ADD61BC4776440032455FC25F (void);
+// 0x00000007 System.Void StartHand::YYSS_StopHand()
+extern void StartHand_YYSS_StopHand_m1AB393D3C2F6A8FDB13E13717DFECA4243DDAED0 (void);
+// 0x00000008 System.Void StartHand::.ctor()
+extern void StartHand__ctor_m4A125205765F15C6D0EDC6B10BEDB5A1ACB3E644 (void);
+// 0x00000009 Unity.YYSX.TrackedPoseDriver_YYSX/TrackingType Unity.YYSX.TrackedPoseDriver_YYSX::get_trackingType()
+extern void TrackedPoseDriver_YYSX_get_trackingType_mA4870BE06D257483A436953DCE14E959FECE3738 (void);
+// 0x0000000A System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_trackingType(Unity.YYSX.TrackedPoseDriver_YYSX/TrackingType)
+extern void TrackedPoseDriver_YYSX_set_trackingType_m94381C5477915ED50ECCBB64C5800314C415AD5F (void);
+// 0x0000000B Unity.YYSX.TrackedPoseDriver_YYSX/UpdateType Unity.YYSX.TrackedPoseDriver_YYSX::get_updateType()
+extern void TrackedPoseDriver_YYSX_get_updateType_m330AF59D308C870D5F038EE7D7F0F4916B77BF97 (void);
+// 0x0000000C System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_updateType(Unity.YYSX.TrackedPoseDriver_YYSX/UpdateType)
+extern void TrackedPoseDriver_YYSX_set_updateType_m6F8B27A528F7A8B1920BDEB50B3885B962FD84EA (void);
+// 0x0000000D System.Boolean Unity.YYSX.TrackedPoseDriver_YYSX::get_ignoreTrackingState()
+extern void TrackedPoseDriver_YYSX_get_ignoreTrackingState_m025D95C0201AFF8B3C9E41D3E159309639409A3A (void);
+// 0x0000000E System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_ignoreTrackingState(System.Boolean)
+extern void TrackedPoseDriver_YYSX_set_ignoreTrackingState_m4413214261D2D4382D1D61ECC972AC70A387E44D (void);
+// 0x0000000F UnityEngine.InputSystem.InputActionProperty Unity.YYSX.TrackedPoseDriver_YYSX::get_positionInput()
+extern void TrackedPoseDriver_YYSX_get_positionInput_m1C0CBE61FEEBE39B046FA1183F4931F540AF218C (void);
+// 0x00000010 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_positionInput(UnityEngine.InputSystem.InputActionProperty)
+extern void TrackedPoseDriver_YYSX_set_positionInput_m9BAAB00D87142B6177B484BF9D580B4773B7ACA8 (void);
+// 0x00000011 UnityEngine.InputSystem.InputActionProperty Unity.YYSX.TrackedPoseDriver_YYSX::get_rotationInput()
+extern void TrackedPoseDriver_YYSX_get_rotationInput_m15AF1C35EE9F9C2B8010359EF1C9D46844779311 (void);
+// 0x00000012 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_rotationInput(UnityEngine.InputSystem.InputActionProperty)
+extern void TrackedPoseDriver_YYSX_set_rotationInput_mD8C286569DBDEA50746CF4875DA0FF54597E51F7 (void);
+// 0x00000013 UnityEngine.InputSystem.InputActionProperty Unity.YYSX.TrackedPoseDriver_YYSX::get_trackingStateInput()
+extern void TrackedPoseDriver_YYSX_get_trackingStateInput_mB80EE797AC51B089E9604CFDF64398041BEBDCB4 (void);
+// 0x00000014 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_trackingStateInput(UnityEngine.InputSystem.InputActionProperty)
+extern void TrackedPoseDriver_YYSX_set_trackingStateInput_m3577F622D21B60CD3CAAB751FA33A815DBF8E276 (void);
+// 0x00000015 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::BindActions()
+extern void TrackedPoseDriver_YYSX_BindActions_m04BB4E4E1B67FF55E0DCD6C7560E968EB9696811 (void);
+// 0x00000016 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnbindActions()
+extern void TrackedPoseDriver_YYSX_UnbindActions_m12D5437BE8B1F626E7EA4B613CB3C1344E3534D7 (void);
+// 0x00000017 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::BindPosition()
+extern void TrackedPoseDriver_YYSX_BindPosition_mCF89FE2A8B26594567AD0186A921FB9101F58901 (void);
+// 0x00000018 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::BindRotation()
+extern void TrackedPoseDriver_YYSX_BindRotation_m62C6BB24165F687FD2598C8EC04AD9AAE39D0C9B (void);
+// 0x00000019 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::BindTrackingState()
+extern void TrackedPoseDriver_YYSX_BindTrackingState_mBCBAAC338973D5149E11ABD610D6F5C3FA329C29 (void);
+// 0x0000001A System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnbindPosition()
+extern void TrackedPoseDriver_YYSX_UnbindPosition_m651C3686AAD6B3A2CE8A997E7BB87EA8EF2D7CCA (void);
+// 0x0000001B System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnbindRotation()
+extern void TrackedPoseDriver_YYSX_UnbindRotation_mD5C8CE2375270772EE5DB5382C10480542D6F34F (void);
+// 0x0000001C System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnbindTrackingState()
+extern void TrackedPoseDriver_YYSX_UnbindTrackingState_m4C56292D3B8ECFF79F539A66C254AAF71DAE59B3 (void);
+// 0x0000001D System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnPositionPerformed(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnPositionPerformed_m81E820E31BED724756D7860A76B9187BCB42EEAF (void);
+// 0x0000001E System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnPositionCanceled(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnPositionCanceled_m7711DACA69B5311F25DAF484F1C43705B3989BE7 (void);
+// 0x0000001F System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnRotationPerformed(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnRotationPerformed_m1A88033E489C0F4506C2C46FC5562D10038F1CA1 (void);
+// 0x00000020 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnRotationCanceled(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnRotationCanceled_m290912FE85B52AE0B975B76EDBB6A90922F99865 (void);
+// 0x00000021 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnTrackingStatePerformed(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnTrackingStatePerformed_mF97A8097817C45DEC11941E021C17EBE55391539 (void);
+// 0x00000022 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnTrackingStateCanceled(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void TrackedPoseDriver_YYSX_OnTrackingStateCanceled_mBE9EA69276DAAD24FCD893A94CF373FE3A98379B (void);
+// 0x00000023 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::Reset()
+extern void TrackedPoseDriver_YYSX_Reset_m5B8BDAE69EC4E05D2415A056730ED0B8058E6D85 (void);
+// 0x00000024 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::Awake()
+extern void TrackedPoseDriver_YYSX_Awake_mD704C3A3D148F9903BBA399BF4083F5C33B0BA7C (void);
+// 0x00000025 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnEnable()
+extern void TrackedPoseDriver_YYSX_OnEnable_mF2EC3A153F8408DEF8A701500E51B8312AFDAF24 (void);
+// 0x00000026 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnDisable()
+extern void TrackedPoseDriver_YYSX_OnDisable_m50E7AFDC234A2EA4D425BC996BF5DBEB52A98634 (void);
+// 0x00000027 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnDestroy()
+extern void TrackedPoseDriver_YYSX_OnDestroy_mBA93060D26F8A5C8F9A4ECDF2C04F8288F9A7547 (void);
+// 0x00000028 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UpdateCallback()
+extern void TrackedPoseDriver_YYSX_UpdateCallback_m5ACD03AEC0FDC860FA7B149F34F6683FC306FEC5 (void);
+// 0x00000029 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::ReadTrackingState()
+extern void TrackedPoseDriver_YYSX_ReadTrackingState_m69CF763624E68331B72C409EC31C280F5F8136D1 (void);
+// 0x0000002A System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnUpdate()
+extern void TrackedPoseDriver_YYSX_OnUpdate_m26DDC5CB89F7E3177F0217D786213EC91F70B31E (void);
+// 0x0000002B System.Void Unity.YYSX.TrackedPoseDriver_YYSX::OnBeforeRender()
+extern void TrackedPoseDriver_YYSX_OnBeforeRender_m81AEB22CC5A647E495F6E3C3FB67A1C26B9494E5 (void);
+// 0x0000002C System.Void Unity.YYSX.TrackedPoseDriver_YYSX::PerformUpdate()
+extern void TrackedPoseDriver_YYSX_PerformUpdate_m292202C463C1EA4CE1CFBD5DFAC40EC91A1755CB (void);
+// 0x0000002D System.Void Unity.YYSX.TrackedPoseDriver_YYSX::SetLocalTransform(UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void TrackedPoseDriver_YYSX_SetLocalTransform_mE3149DB61CDAD62840538FA723EAF0866AC2C15C (void);
+// 0x0000002E System.Boolean Unity.YYSX.TrackedPoseDriver_YYSX::HasStereoCamera(UnityEngine.Camera&)
+extern void TrackedPoseDriver_YYSX_HasStereoCamera_mB19E7A9B30A9B0FF39C47AF09A85C6DB24DA6E29 (void);
+// 0x0000002F UnityEngine.InputSystem.InputAction Unity.YYSX.TrackedPoseDriver_YYSX::get_positionAction()
+extern void TrackedPoseDriver_YYSX_get_positionAction_mFDFE8230D1E3089C84C5F88621B0F5F79F453565 (void);
+// 0x00000030 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_positionAction(UnityEngine.InputSystem.InputAction)
+extern void TrackedPoseDriver_YYSX_set_positionAction_mDEB1A93211A4A8D4E5C42656906D74D6049151B5 (void);
+// 0x00000031 UnityEngine.InputSystem.InputAction Unity.YYSX.TrackedPoseDriver_YYSX::get_rotationAction()
+extern void TrackedPoseDriver_YYSX_get_rotationAction_mC90900F99149E001CF16890EAB08B474841A4461 (void);
+// 0x00000032 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::set_rotationAction(UnityEngine.InputSystem.InputAction)
+extern void TrackedPoseDriver_YYSX_set_rotationAction_m3F7B868E2E139D5C416C3FF5B51FB41FF0183945 (void);
+// 0x00000033 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+extern void TrackedPoseDriver_YYSX_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m33519A9BFAF5803BA59927BAC350651B969BD26F (void);
+// 0x00000034 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+extern void TrackedPoseDriver_YYSX_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m080214523F260AF814A8BE5CC56B4BF3367966DC (void);
+// 0x00000035 System.Void Unity.YYSX.TrackedPoseDriver_YYSX::.ctor()
+extern void TrackedPoseDriver_YYSX__ctor_m474DDFAD09A2C0D241F5B91BA25B90594AD183D1 (void);
+// 0x00000036 UnityEngine.GameObject UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::get_activationGameObject()
+extern void ToggleGameObject_get_activationGameObject_m13B0B6CA4B8E43E0CCFC2C2BCB94C4C5A7B7AC7F (void);
+// 0x00000037 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::set_activationGameObject(UnityEngine.GameObject)
+extern void ToggleGameObject_set_activationGameObject_m8AF4613FA88B6265E626E71B1ECCFBB0CF2C7C41 (void);
+// 0x00000038 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::get_currentlyActive()
+extern void ToggleGameObject_get_currentlyActive_m3CA79EC1361C8DCDFA284E3244FE21C21C24CE46 (void);
+// 0x00000039 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::set_currentlyActive(System.Boolean)
+extern void ToggleGameObject_set_currentlyActive_mCC641C365812F9FC07C02EEFEC5F721ADBC7A9F3 (void);
+// 0x0000003A System.Void UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::ToggleActiveState()
+extern void ToggleGameObject_ToggleActiveState_m09595382A6999DA95A3B2C6E10644DBC86541849 (void);
+// 0x0000003B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject::.ctor()
+extern void ToggleGameObject__ctor_m29D7BF47DA58AFAB540E61A969DFA92091B4EA41 (void);
+// 0x0000003C UnityEngine.InputSystem.InputActionProperty UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::get_aimFlagsAction()
+extern void MetaSystemGestureDetector_get_aimFlagsAction_m2C5805AB317B9939E6277CB717063E1E589907FF (void);
+// 0x0000003D System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::set_aimFlagsAction(UnityEngine.InputSystem.InputActionProperty)
+extern void MetaSystemGestureDetector_set_aimFlagsAction_m952D5A40B7C040E76B430C915A8B28ECB3F62C1B (void);
+// 0x0000003E UnityEngine.Events.UnityEvent UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::get_systemGestureStarted()
+extern void MetaSystemGestureDetector_get_systemGestureStarted_m32D8A43F2C9D2738E7A2D3F2C61D7BE624C226C8 (void);
+// 0x0000003F System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::set_systemGestureStarted(UnityEngine.Events.UnityEvent)
+extern void MetaSystemGestureDetector_set_systemGestureStarted_m56B4A305A63317E7F54B0A4F1038886FF117FFA6 (void);
+// 0x00000040 UnityEngine.Events.UnityEvent UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::get_systemGestureEnded()
+extern void MetaSystemGestureDetector_get_systemGestureEnded_mB04C5815904953F622CFC12FBA97EE30B9534586 (void);
+// 0x00000041 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::set_systemGestureEnded(UnityEngine.Events.UnityEvent)
+extern void MetaSystemGestureDetector_set_systemGestureEnded_mC007E016BA98BD84EC3EA88051F4EF4CEEC03EAB (void);
+// 0x00000042 UnityEngine.Events.UnityEvent UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::get_menuPressed()
+extern void MetaSystemGestureDetector_get_menuPressed_m753D80451BECA3D92A4712E28578B63FFE117087 (void);
+// 0x00000043 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::set_menuPressed(UnityEngine.Events.UnityEvent)
+extern void MetaSystemGestureDetector_set_menuPressed_m46EEEC1A31E2ED1012F2F822594C9A6BF00D8318 (void);
+// 0x00000044 Unity.XR.CoreUtils.Bindings.Variables.IReadOnlyBindableVariable`1<UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector/SystemGestureState> UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::get_systemGestureState()
+extern void MetaSystemGestureDetector_get_systemGestureState_m941EF54EBED75B6F8C7C4EA920C3A37F7471CF8A (void);
+// 0x00000045 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::OnEnable()
+extern void MetaSystemGestureDetector_OnEnable_m3B14BE9ED3EFC8AC1705E39C66A7A074652DBB90 (void);
+// 0x00000046 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::OnDisable()
+extern void MetaSystemGestureDetector_OnDisable_m6DCC095C2E7BCB2927CFC799AEC744A6BFB4DA05 (void);
+// 0x00000047 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::BindAimFlags()
+extern void MetaSystemGestureDetector_BindAimFlags_mCC549E02D18E15D393769447B59914D2261B9FB6 (void);
+// 0x00000048 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::UnbindAimFlags()
+extern void MetaSystemGestureDetector_UnbindAimFlags_m9BCE9DF16D45F777D63BBE5285E51685F2E3801C (void);
+// 0x00000049 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::SetGestureState(UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector/SystemGestureState,System.Boolean)
+extern void MetaSystemGestureDetector_SetGestureState_mA8408914616784FF6321DC18D99C6CC46B0CE0C8 (void);
+// 0x0000004A System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::UpdateAimFlags(UnityEngine.XR.Hands.MetaAimFlags,System.Boolean)
+extern void MetaSystemGestureDetector_UpdateAimFlags_m951BE31692BAA2A28618E0F8354BC9E907B4F4FC (void);
+// 0x0000004B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::OnAimFlagsActionPerformedOrCanceled(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void MetaSystemGestureDetector_OnAimFlagsActionPerformedOrCanceled_mA039A6CD5B5CAAE457D7672710A4A314ACCE12BD (void);
+// 0x0000004C System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.MetaSystemGestureDetector::.ctor()
+extern void MetaSystemGestureDetector__ctor_mF5508C719F65E5677F3CBA6B36FC1ADA4D6BFF88 (void);
+// 0x0000004D System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.ObjectResetPlane::Start()
+extern void ObjectResetPlane_Start_mB392CE4851EE4B43ECA891CDAC0E58811DBEB749 (void);
+// 0x0000004E System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.ObjectResetPlane::Update()
+extern void ObjectResetPlane_Update_mFFD955BAF5684166CC09D48B84E7BE6C790EA971 (void);
+// 0x0000004F System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.ObjectResetPlane::.ctor()
+extern void ObjectResetPlane__ctor_mC9E2B69E8F9FD3B1F1011DC301332C45113439D2 (void);
+// 0x00000050 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::OnEnable()
+extern void PokeGestureDetector_OnEnable_m6DD27B030C68C0264DA2550664810470AB98F3D1 (void);
+// 0x00000051 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::OnDisable()
+extern void PokeGestureDetector_OnDisable_m0CD604623E5AC457F5A211AB6DB87B8AEF5CEA9F (void);
+// 0x00000052 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::OnUpdatedHands(UnityEngine.XR.Hands.XRHandSubsystem,UnityEngine.XR.Hands.XRHandSubsystem/UpdateSuccessFlags,UnityEngine.XR.Hands.XRHandSubsystem/UpdateType)
+extern void PokeGestureDetector_OnUpdatedHands_mAE314CD7D196CFD58C6B76C605EC9AC61A2DDD0B (void);
+// 0x00000053 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::HasUpdateSuccessFlag(UnityEngine.XR.Hands.XRHandSubsystem/UpdateSuccessFlags,UnityEngine.XR.Hands.XRHandSubsystem/UpdateSuccessFlags)
+extern void PokeGestureDetector_HasUpdateSuccessFlag_mBC99EAA5370D5E23ABC01C313A03ECB88EF99655 (void);
+// 0x00000054 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::IsIndexExtended(UnityEngine.XR.Hands.XRHand)
+extern void PokeGestureDetector_IsIndexExtended_mBCAEF05D801F4F24AD729FC1696EC0E8F758BA73 (void);
+// 0x00000055 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::IsMiddleGrabbing(UnityEngine.XR.Hands.XRHand)
+extern void PokeGestureDetector_IsMiddleGrabbing_m992C297A51CC20F8133E1663916F766F3AFE75E0 (void);
+// 0x00000056 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::IsRingGrabbing(UnityEngine.XR.Hands.XRHand)
+extern void PokeGestureDetector_IsRingGrabbing_m50488D913D581FD7EF82AE8F4972D8220A1CAAB4 (void);
+// 0x00000057 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::IsLittleGrabbing(UnityEngine.XR.Hands.XRHand)
+extern void PokeGestureDetector_IsLittleGrabbing_m43A33AD4EBC1FC7E56712E6806559F19E67666A5 (void);
+// 0x00000058 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::StartPokeGesture()
+extern void PokeGestureDetector_StartPokeGesture_m70ABEC1433DA03E304CC7F1C701BA59F3BA7CA7D (void);
+// 0x00000059 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::EndPokeGesture()
+extern void PokeGestureDetector_EndPokeGesture_mE8ECDBF9E14D27A44E583607A8BADF49391C04B8 (void);
+// 0x0000005A System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::.ctor()
+extern void PokeGestureDetector__ctor_mA6D3EC9146A3DACF8D754DE5EB5485369BCB78C1 (void);
+// 0x0000005B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.Hands.PokeGestureDetector::.cctor()
+extern void PokeGestureDetector__cctor_mBF87F492F57E3FF6709F92E8B4D3BF04CF36196B (void);
+static Il2CppMethodPointer s_methodPointers[91] = 
+{
+	StartHand_OnEnable_mAB30FBFAA0BFA05D782AE8D39D1EB7D21EA300F7,
+	StartHand_OnDisable_m287FC45E698FF9655688C9BC087A5AAA77676101,
+	StartHand_Update_mB7B0779288CC4D20139FB435FF2606224BFD35B4,
+	StartHand_yyss_unityxr_setHand_mA8B1DFEC4295938DE77506B3EA7E43E18C53D241,
+	StartHand_YYSS_unityxr_setHand_mA8C84816329FB9CE9636101A7E707A675C9D5203,
+	StartHand_YYSS_StartHand_mEF96D82116C4F26ADD61BC4776440032455FC25F,
+	StartHand_YYSS_StopHand_m1AB393D3C2F6A8FDB13E13717DFECA4243DDAED0,
+	StartHand__ctor_m4A125205765F15C6D0EDC6B10BEDB5A1ACB3E644,
+	TrackedPoseDriver_YYSX_get_trackingType_mA4870BE06D257483A436953DCE14E959FECE3738,
+	TrackedPoseDriver_YYSX_set_trackingType_m94381C5477915ED50ECCBB64C5800314C415AD5F,
+	TrackedPoseDriver_YYSX_get_updateType_m330AF59D308C870D5F038EE7D7F0F4916B77BF97,
+	TrackedPoseDriver_YYSX_set_updateType_m6F8B27A528F7A8B1920BDEB50B3885B962FD84EA,
+	TrackedPoseDriver_YYSX_get_ignoreTrackingState_m025D95C0201AFF8B3C9E41D3E159309639409A3A,
+	TrackedPoseDriver_YYSX_set_ignoreTrackingState_m4413214261D2D4382D1D61ECC972AC70A387E44D,
+	TrackedPoseDriver_YYSX_get_positionInput_m1C0CBE61FEEBE39B046FA1183F4931F540AF218C,
+	TrackedPoseDriver_YYSX_set_positionInput_m9BAAB00D87142B6177B484BF9D580B4773B7ACA8,
+	TrackedPoseDriver_YYSX_get_rotationInput_m15AF1C35EE9F9C2B8010359EF1C9D46844779311,
+	TrackedPoseDriver_YYSX_set_rotationInput_mD8C286569DBDEA50746CF4875DA0FF54597E51F7,
+	TrackedPoseDriver_YYSX_get_trackingStateInput_mB80EE797AC51B089E9604CFDF64398041BEBDCB4,
+	TrackedPoseDriver_YYSX_set_trackingStateInput_m3577F622D21B60CD3CAAB751FA33A815DBF8E276,
+	TrackedPoseDriver_YYSX_BindActions_m04BB4E4E1B67FF55E0DCD6C7560E968EB9696811,
+	TrackedPoseDriver_YYSX_UnbindActions_m12D5437BE8B1F626E7EA4B613CB3C1344E3534D7,
+	TrackedPoseDriver_YYSX_BindPosition_mCF89FE2A8B26594567AD0186A921FB9101F58901,
+	TrackedPoseDriver_YYSX_BindRotation_m62C6BB24165F687FD2598C8EC04AD9AAE39D0C9B,
+	TrackedPoseDriver_YYSX_BindTrackingState_mBCBAAC338973D5149E11ABD610D6F5C3FA329C29,
+	TrackedPoseDriver_YYSX_UnbindPosition_m651C3686AAD6B3A2CE8A997E7BB87EA8EF2D7CCA,
+	TrackedPoseDriver_YYSX_UnbindRotation_mD5C8CE2375270772EE5DB5382C10480542D6F34F,
+	TrackedPoseDriver_YYSX_UnbindTrackingState_m4C56292D3B8ECFF79F539A66C254AAF71DAE59B3,
+	TrackedPoseDriver_YYSX_OnPositionPerformed_m81E820E31BED724756D7860A76B9187BCB42EEAF,
+	TrackedPoseDriver_YYSX_OnPositionCanceled_m7711DACA69B5311F25DAF484F1C43705B3989BE7,
+	TrackedPoseDriver_YYSX_OnRotationPerformed_m1A88033E489C0F4506C2C46FC5562D10038F1CA1,
+	TrackedPoseDriver_YYSX_OnRotationCanceled_m290912FE85B52AE0B975B76EDBB6A90922F99865,
+	TrackedPoseDriver_YYSX_OnTrackingStatePerformed_mF97A8097817C45DEC11941E021C17EBE55391539,
+	TrackedPoseDriver_YYSX_OnTrackingStateCanceled_mBE9EA69276DAAD24FCD893A94CF373FE3A98379B,
+	TrackedPoseDriver_YYSX_Reset_m5B8BDAE69EC4E05D2415A056730ED0B8058E6D85,
+	TrackedPoseDriver_YYSX_Awake_mD704C3A3D148F9903BBA399BF4083F5C33B0BA7C,
+	TrackedPoseDriver_YYSX_OnEnable_mF2EC3A153F8408DEF8A701500E51B8312AFDAF24,
+	TrackedPoseDriver_YYSX_OnDisable_m50E7AFDC234A2EA4D425BC996BF5DBEB52A98634,
+	TrackedPoseDriver_YYSX_OnDestroy_mBA93060D26F8A5C8F9A4ECDF2C04F8288F9A7547,
+	TrackedPoseDriver_YYSX_UpdateCallback_m5ACD03AEC0FDC860FA7B149F34F6683FC306FEC5,
+	TrackedPoseDriver_YYSX_ReadTrackingState_m69CF763624E68331B72C409EC31C280F5F8136D1,
+	TrackedPoseDriver_YYSX_OnUpdate_m26DDC5CB89F7E3177F0217D786213EC91F70B31E,
+	TrackedPoseDriver_YYSX_OnBeforeRender_m81AEB22CC5A647E495F6E3C3FB67A1C26B9494E5,
+	TrackedPoseDriver_YYSX_PerformUpdate_m292202C463C1EA4CE1CFBD5DFAC40EC91A1755CB,
+	TrackedPoseDriver_YYSX_SetLocalTransform_mE3149DB61CDAD62840538FA723EAF0866AC2C15C,
+	TrackedPoseDriver_YYSX_HasStereoCamera_mB19E7A9B30A9B0FF39C47AF09A85C6DB24DA6E29,
+	TrackedPoseDriver_YYSX_get_positionAction_mFDFE8230D1E3089C84C5F88621B0F5F79F453565,
+	TrackedPoseDriver_YYSX_set_positionAction_mDEB1A93211A4A8D4E5C42656906D74D6049151B5,
+	TrackedPoseDriver_YYSX_get_rotationAction_mC90900F99149E001CF16890EAB08B474841A4461,
+	TrackedPoseDriver_YYSX_set_rotationAction_m3F7B868E2E139D5C416C3FF5B51FB41FF0183945,
+	TrackedPoseDriver_YYSX_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m33519A9BFAF5803BA59927BAC350651B969BD26F,
+	TrackedPoseDriver_YYSX_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m080214523F260AF814A8BE5CC56B4BF3367966DC,
+	TrackedPoseDriver_YYSX__ctor_m474DDFAD09A2C0D241F5B91BA25B90594AD183D1,
+	ToggleGameObject_get_activationGameObject_m13B0B6CA4B8E43E0CCFC2C2BCB94C4C5A7B7AC7F,
+	ToggleGameObject_set_activationGameObject_m8AF4613FA88B6265E626E71B1ECCFBB0CF2C7C41,
+	ToggleGameObject_get_currentlyActive_m3CA79EC1361C8DCDFA284E3244FE21C21C24CE46,
+	ToggleGameObject_set_currentlyActive_mCC641C365812F9FC07C02EEFEC5F721ADBC7A9F3,
+	ToggleGameObject_ToggleActiveState_m09595382A6999DA95A3B2C6E10644DBC86541849,
+	ToggleGameObject__ctor_m29D7BF47DA58AFAB540E61A969DFA92091B4EA41,
+	MetaSystemGestureDetector_get_aimFlagsAction_m2C5805AB317B9939E6277CB717063E1E589907FF,
+	MetaSystemGestureDetector_set_aimFlagsAction_m952D5A40B7C040E76B430C915A8B28ECB3F62C1B,
+	MetaSystemGestureDetector_get_systemGestureStarted_m32D8A43F2C9D2738E7A2D3F2C61D7BE624C226C8,
+	MetaSystemGestureDetector_set_systemGestureStarted_m56B4A305A63317E7F54B0A4F1038886FF117FFA6,
+	MetaSystemGestureDetector_get_systemGestureEnded_mB04C5815904953F622CFC12FBA97EE30B9534586,
+	MetaSystemGestureDetector_set_systemGestureEnded_mC007E016BA98BD84EC3EA88051F4EF4CEEC03EAB,
+	MetaSystemGestureDetector_get_menuPressed_m753D80451BECA3D92A4712E28578B63FFE117087,
+	MetaSystemGestureDetector_set_menuPressed_m46EEEC1A31E2ED1012F2F822594C9A6BF00D8318,
+	MetaSystemGestureDetector_get_systemGestureState_m941EF54EBED75B6F8C7C4EA920C3A37F7471CF8A,
+	MetaSystemGestureDetector_OnEnable_m3B14BE9ED3EFC8AC1705E39C66A7A074652DBB90,
+	MetaSystemGestureDetector_OnDisable_m6DCC095C2E7BCB2927CFC799AEC744A6BFB4DA05,
+	MetaSystemGestureDetector_BindAimFlags_mCC549E02D18E15D393769447B59914D2261B9FB6,
+	MetaSystemGestureDetector_UnbindAimFlags_m9BCE9DF16D45F777D63BBE5285E51685F2E3801C,
+	MetaSystemGestureDetector_SetGestureState_mA8408914616784FF6321DC18D99C6CC46B0CE0C8,
+	MetaSystemGestureDetector_UpdateAimFlags_m951BE31692BAA2A28618E0F8354BC9E907B4F4FC,
+	MetaSystemGestureDetector_OnAimFlagsActionPerformedOrCanceled_mA039A6CD5B5CAAE457D7672710A4A314ACCE12BD,
+	MetaSystemGestureDetector__ctor_mF5508C719F65E5677F3CBA6B36FC1ADA4D6BFF88,
+	ObjectResetPlane_Start_mB392CE4851EE4B43ECA891CDAC0E58811DBEB749,
+	ObjectResetPlane_Update_mFFD955BAF5684166CC09D48B84E7BE6C790EA971,
+	ObjectResetPlane__ctor_mC9E2B69E8F9FD3B1F1011DC301332C45113439D2,
+	PokeGestureDetector_OnEnable_m6DD27B030C68C0264DA2550664810470AB98F3D1,
+	PokeGestureDetector_OnDisable_m0CD604623E5AC457F5A211AB6DB87B8AEF5CEA9F,
+	PokeGestureDetector_OnUpdatedHands_mAE314CD7D196CFD58C6B76C605EC9AC61A2DDD0B,
+	PokeGestureDetector_HasUpdateSuccessFlag_mBC99EAA5370D5E23ABC01C313A03ECB88EF99655,
+	PokeGestureDetector_IsIndexExtended_mBCAEF05D801F4F24AD729FC1696EC0E8F758BA73,
+	PokeGestureDetector_IsMiddleGrabbing_m992C297A51CC20F8133E1663916F766F3AFE75E0,
+	PokeGestureDetector_IsRingGrabbing_m50488D913D581FD7EF82AE8F4972D8220A1CAAB4,
+	PokeGestureDetector_IsLittleGrabbing_m43A33AD4EBC1FC7E56712E6806559F19E67666A5,
+	PokeGestureDetector_StartPokeGesture_m70ABEC1433DA03E304CC7F1C701BA59F3BA7CA7D,
+	PokeGestureDetector_EndPokeGesture_mE8ECDBF9E14D27A44E583607A8BADF49391C04B8,
+	PokeGestureDetector__ctor_mA6D3EC9146A3DACF8D754DE5EB5485369BCB78C1,
+	PokeGestureDetector__cctor_mBF87F492F57E3FF6709F92E8B4D3BF04CF36196B,
+};
+static const int32_t s_InvokerIndices[91] = 
+{
+	6361,
+	6361,
+	6361,
+	9448,
+	9448,
+	6361,
+	9671,
+	6361,
+	6193,
+	5019,
+	6193,
+	5019,
+	6118,
+	4941,
+	6173,
+	5000,
+	6173,
+	5000,
+	6173,
+	5000,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	5206,
+	5206,
+	5206,
+	5206,
+	5206,
+	5206,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	2915,
+	3436,
+	6237,
+	5060,
+	6237,
+	5060,
+	6361,
+	6361,
+	6361,
+	6237,
+	5060,
+	6118,
+	4941,
+	6361,
+	6361,
+	6173,
+	5000,
+	6237,
+	5060,
+	6237,
+	5060,
+	6237,
+	5060,
+	6237,
+	6361,
+	6361,
+	6361,
+	6361,
+	2513,
+	2904,
+	5206,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	1465,
+	8293,
+	9054,
+	9054,
+	9054,
+	9054,
+	6361,
+	6361,
+	6361,
+	9671,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule = 
+{
+	"Unity.XR.Interaction.Toolkit.Samples.Hands.dll",
+	91,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

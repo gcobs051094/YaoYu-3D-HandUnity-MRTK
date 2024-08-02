@@ -1,0 +1,4 @@
+#Fri Aug 02 13:51:50 CST 2024
+base.0=C\:\\Users\\pt\\Desktop\\YaoYu_3D_Hand_Unity\\module\\Hand_MRTK_KC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

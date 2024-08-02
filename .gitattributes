@@ -1,0 +1,7 @@
+Hand_MRTK_KC/0802_去頭部跟蹤光標_需更新0726LauncherService_穩定光標_吸附_靜態手勢完整.unitypackage filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/ArtifactD filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.5/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+Hand_MRTK_KC/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text

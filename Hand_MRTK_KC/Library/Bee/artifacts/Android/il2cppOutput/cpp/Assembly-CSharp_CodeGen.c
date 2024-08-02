@@ -1,0 +1,609 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void GestureRecognizer::Start()
+extern void GestureRecognizer_Start_mFA74CCE0A831D27630D1B03EFF2D3A8C9D93DC49 (void);
+// 0x00000002 System.Void GestureRecognizer::Update()
+extern void GestureRecognizer_Update_mF321E4A4C562A1ACD31BAA81A08051D050A34962 (void);
+// 0x00000003 System.Collections.Generic.List`1<UnityEngine.Vector3> GestureRecognizer::JointList(System.Collections.Generic.List`1<UnityEngine.Vector3>,Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void GestureRecognizer_JointList_m3D76232BEED6B30BD4BE529D00F2FB6E02A1BA28 (void);
+// 0x00000004 System.Single GestureRecognizer::Vector3DAngle(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void GestureRecognizer_Vector3DAngle_m21A5AB56414044BF816F1B7E7167B112A2A1B79F (void);
+// 0x00000005 System.Single[] GestureRecognizer::HandAngle(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void GestureRecognizer_HandAngle_m8101F0A5BD5F08A4594F71A37AA0294DD38ECD66 (void);
+// 0x00000006 UnityEngine.Vector3 GestureRecognizer::PlamDirection(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void GestureRecognizer_PlamDirection_m8FC2BB599D99DCE80270C3E23EA00E17D61F914C (void);
+// 0x00000007 System.String GestureRecognizer::Recognize(Microsoft.MixedReality.Toolkit.Utilities.Handedness,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Single[],UnityEngine.Vector3)
+extern void GestureRecognizer_Recognize_m76FFFA8FF77DA4473AF5509FE7565B4C580C5957 (void);
+// 0x00000008 System.Void GestureRecognizer::.ctor()
+extern void GestureRecognizer__ctor_mBDCE83E6A76A461F411EEC1F93F8C989F7880A84 (void);
+// 0x00000009 System.Void Fps::Start()
+extern void Fps_Start_m9C79DA3D2C07ED8343BAA67D9A3745B68270C96B (void);
+// 0x0000000A System.Void Fps::Update()
+extern void Fps_Update_mDB287E395C2721897A9D0B563FA0E985B3335D86 (void);
+// 0x0000000B System.Collections.IEnumerator Fps::CalculateFramesPerSecond()
+extern void Fps_CalculateFramesPerSecond_m7DAE4D18DB3083D5B39C533D0774CC4B489C30AA (void);
+// 0x0000000C System.Void Fps::.ctor()
+extern void Fps__ctor_m37F1D3B50A65F61E1635B55AD38403DBD9BED409 (void);
+// 0x0000000D System.Void Fps/<CalculateFramesPerSecond>d__6::.ctor(System.Int32)
+extern void U3CCalculateFramesPerSecondU3Ed__6__ctor_m44490EF1E06B441016B8B753D23E63B9FF345B7B (void);
+// 0x0000000E System.Void Fps/<CalculateFramesPerSecond>d__6::System.IDisposable.Dispose()
+extern void U3CCalculateFramesPerSecondU3Ed__6_System_IDisposable_Dispose_m3122D814B155D0C2C7C48A1C8F1C93A7878B68E3 (void);
+// 0x0000000F System.Boolean Fps/<CalculateFramesPerSecond>d__6::MoveNext()
+extern void U3CCalculateFramesPerSecondU3Ed__6_MoveNext_m00B30B7E05CD9775C842965B38463D28F4E30573 (void);
+// 0x00000010 System.Object Fps/<CalculateFramesPerSecond>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCalculateFramesPerSecondU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA5ED2D42635D6EFC47EDFA639721D6604FC5324 (void);
+// 0x00000011 System.Void Fps/<CalculateFramesPerSecond>d__6::System.Collections.IEnumerator.Reset()
+extern void U3CCalculateFramesPerSecondU3Ed__6_System_Collections_IEnumerator_Reset_m81726BA8B57BAB7FEB0AF5B79362371AE60CBE78 (void);
+// 0x00000012 System.Object Fps/<CalculateFramesPerSecond>d__6::System.Collections.IEnumerator.get_Current()
+extern void U3CCalculateFramesPerSecondU3Ed__6_System_Collections_IEnumerator_get_Current_m432294D7BC5B83D87C859266F49753AEA7A488B2 (void);
+// 0x00000013 System.Void TestHandData::Start()
+extern void TestHandData_Start_m43A8AF5A52D2EB09F36E0E226663CBED7F2AD7CD (void);
+// 0x00000014 System.Void TestHandData::Update()
+extern void TestHandData_Update_mAFDF7F69C5E2287692EF767638FB916FCDFA104A (void);
+// 0x00000015 System.Void TestHandData::.ctor()
+extern void TestHandData__ctor_m75DDAF098C9079FD215BDE70FA56F78E7E9D3A64 (void);
+// 0x00000016 System.Void UnityEngine.XRSimulator::Awake()
+extern void XRSimulator_Awake_m8BEAF99D099764C89548BD2CE966787F2EC7348B (void);
+// 0x00000017 System.Void UnityEngine.XRSimulator::OnDestroy()
+extern void XRSimulator_OnDestroy_m0E25BE1400D95BDF5EC7FF9AB0A6786DD09A2B1D (void);
+// 0x00000018 System.Void UnityEngine.XRSimulator::Update()
+extern void XRSimulator_Update_m3C4A88B2E38DD07127AD46E3634782684075FE92 (void);
+// 0x00000019 System.Void UnityEngine.XRSimulator::ProcessPoseInput()
+extern void XRSimulator_ProcessPoseInput_m3DD106DABC9F0EF5AA182E61FE8DA9685B1AA848 (void);
+// 0x0000001A System.Void UnityEngine.XRSimulator::ProcessControlInput()
+extern void XRSimulator_ProcessControlInput_mBA14C2E6844AA01053638F62F084D5593BC9B6F0 (void);
+// 0x0000001B System.Void UnityEngine.XRSimulator::AddDevices()
+extern void XRSimulator_AddDevices_m58515A8B56F47C00A674AEE2D9210FB75001DCF2 (void);
+// 0x0000001C System.Void UnityEngine.XRSimulator::RemoveDevices()
+extern void XRSimulator_RemoveDevices_m66B1D0EC9DABBABA1EDCBEF9EC79D4F7FB40005E (void);
+// 0x0000001D System.Void UnityEngine.XRSimulator::.ctor()
+extern void XRSimulator__ctor_mA052E26FBBBD081FFE5585D44A8E5370B80DA50A (void);
+// 0x0000001E System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnEnable()
+extern void GestureTester_OnEnable_m9AADD8392DD6B7F1426E64893B3F4BAC46A4BC07 (void);
+// 0x0000001F System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureStarted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureStarted_mCF1BE4F1FF22393623C32F1B0E6AC54F91BE297E (void);
+// 0x00000020 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureUpdated_mF46446A8F728105F119FB700455D39E512163CD4 (void);
+// 0x00000021 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureUpdated_m87C7C00F3CDF1CD9EEB1ADE6FB76213503ACB3CB (void);
+// 0x00000022 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCompleted_m4666AFD1E4F059552A9D39D985F71F8E84F8E0CE (void);
+// 0x00000023 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureCompleted_m7C0B5A3C601B167666063099914A8F2E918A68AC (void);
+// 0x00000024 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCanceled(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCanceled_mB0BAF7B49FCA4856600B4D0BABB7EDC6A04FEB3E (void);
+// 0x00000025 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material)
+extern void GestureTester_SetIndicator_mD5DDB1BCEE0E02E3B3F15978868F540017B13CE8 (void);
+// 0x00000026 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material,UnityEngine.Vector3)
+extern void GestureTester_SetIndicator_m28F3812D5118DB72C0471412FFDA3AF75BE9BE01 (void);
+// 0x00000027 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::ShowRails(UnityEngine.Vector3)
+extern void GestureTester_ShowRails_mC8E3453E111E72C2E5D3A5154396B1B06C4837F8 (void);
+// 0x00000028 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::HideRails()
+extern void GestureTester_HideRails_mF951FABE031588F25EEE7AFFAD0449CAA21650C1 (void);
+// 0x00000029 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::.ctor()
+extern void GestureTester__ctor_m59B2BD41A6257BE9E46109314FDF03DBC13A5E22 (void);
+// 0x0000002A System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::Awake()
+extern void GrabTouchExample_Awake_mF1A7CF657D2BF3845A6F5013CAAA2ED3B4871518 (void);
+// 0x0000002B System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputDown(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputDown_m4F2432C631F68039D2A4D58A9A191163F060FC1C (void);
+// 0x0000002C System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputUp(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputUp_m3ABADEBABE435C956571436FA9DD6829B97206F3 (void);
+// 0x0000002D System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputPressed(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<System.Single>)
+extern void GrabTouchExample_OnInputPressed_m22B8A5F55A79FB4B22740CE58C862D2207686EA6 (void);
+// 0x0000002E System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnPositionInputChanged(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector2>)
+extern void GrabTouchExample_OnPositionInputChanged_mAFD365CD4F7BC572E1BB69E2BA93B7093B59902C (void);
+// 0x0000002F System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchCompleted_m6A65545CD38255D5C8A0E8DD3958B1428FCF61EB (void);
+// 0x00000030 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchStarted_m8509F80B2EFE35C934A2BE96A4096EBAAA9AEFF9 (void);
+// 0x00000031 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchUpdated_m602E0527A4C57151F74EA6CFA069228312CFAAF1 (void);
+// 0x00000032 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::.ctor()
+extern void GrabTouchExample__ctor_m9EAD45E5FACBABD21087D76A284094AA74AF644B (void);
+// 0x00000033 System.Void Microsoft.MixedReality.Toolkit.Examples.LeapMotionOrientationDisplay::.ctor()
+extern void LeapMotionOrientationDisplay__ctor_mB03351C717D53DF299B4F817B344562D94AC9315 (void);
+// 0x00000034 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnEnable()
+extern void RotateWithPan_OnEnable_m119D06CDEDB9960441C6A9EB52E0E3156526F6FC (void);
+// 0x00000035 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnDisable()
+extern void RotateWithPan_OnDisable_mE66C37D891C63D16C57B9C42FB46DE6CCAE577D0 (void);
+// 0x00000036 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanEnded(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanEnded_m5DCB7ADB80553546E0EB418824D1C193DB29F52E (void);
+// 0x00000037 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanning(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanning_mAAEE5025B70EA41A405EFE3E97AF94FAC9547827 (void);
+// 0x00000038 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanStarted(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanStarted_m53911BBAB7CC74996FF05BB38F1CA5CF74CCCDF3 (void);
+// 0x00000039 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::.ctor()
+extern void RotateWithPan__ctor_m75092EEC95C572006C07A392B333F4862347E21D (void);
+// 0x0000003A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::SetTextWithTimestamp(System.String)
+extern void DebugTextOutput_SetTextWithTimestamp_m62F3F7E77B050521F6378455ED8784C44FB82278 (void);
+// 0x0000003B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::.ctor()
+extern void DebugTextOutput__ctor_mC1F2AC69FFEC0E69567A3D525D2FA49E9E28B3A9 (void);
+// 0x0000003C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Awake()
+extern void DemoTouchButton_Awake_m83BAA3AAE898955C5D1A805ED49145A6B28BE6E0 (void);
+// 0x0000003D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m022BD52F7B9375F565C9819C36F4E99FD7423588 (void);
+// 0x0000003E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_mB4D0A6210C60B243DAE610CEF15FC8D9B64F1A7A (void);
+// 0x0000003F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m12F427DE21A0E72EBFFDA28770B73E72373503C4 (void);
+// 0x00000040 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_m13D7ABD2DD39019470E32028659BBD8476190E20 (void);
+// 0x00000041 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::.ctor()
+extern void DemoTouchButton__ctor_mF7D651379967BF470D6AE876C18D80D4594F6323 (void);
+// 0x00000042 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Start()
+extern void HandInteractionTouch_Start_mC4C9FE251E5C7099CFFF986F81A7DD8CB8DAD8B7 (void);
+// 0x00000043 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_mB132E11E21B6CA0B22CF0BE1176C396D07275B06 (void);
+// 0x00000044 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_mCC8AF20A81FD38F193253887392F484612DDEB48 (void);
+// 0x00000045 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mB2961B642338C4BAF9AFCBA197011B8B4DB2E116 (void);
+// 0x00000046 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::.ctor()
+extern void HandInteractionTouch__ctor_m2BAF73805C7E05C4BA70E87DE0C43EC77D38E7BC (void);
+// 0x00000047 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mAC47B7F4FFEB871D99BAB41BD24F1070EC7C394A (void);
+// 0x00000048 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::.ctor()
+extern void HandInteractionTouchRotate__ctor_mD76C9936325A4491C17BA2317A07E0958ED9E6C8 (void);
+// 0x00000049 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::Launch(System.String)
+extern void LaunchUri_Launch_m3288F46EF18446AE7EFBCC5D012A4E7BB11BB43C (void);
+// 0x0000004A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::.ctor()
+extern void LaunchUri__ctor_m7FA1E45963920ECD98D27F0CCF13FE265224C265 (void);
+// 0x0000004B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::Start()
+extern void LeapCoreAssetsDetector_Start_m23798D463B5CC0D836ED7BB4C22BD8A4149AD97A (void);
+// 0x0000004C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::.ctor()
+extern void LeapCoreAssetsDetector__ctor_m16AB1C5D1007014CC9E23A0F530275A969A1E15A (void);
+// 0x0000004D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHead()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m26CDA8F1F58F139EBB2950BF4FEC98CC4A2CDAFA (void);
+// 0x0000004E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHandJoint()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m5053FCEF017B9D73200DDB0FDF2886AB46A5A1A0 (void);
+// 0x0000004F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::.ctor()
+extern void SolverTrackedTargetType__ctor_m53B326829C5A2A45B5E608A12A47908BF01415A4 (void);
+// 0x00000050 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::OpenSystemKeyboard()
+extern void SystemKeyboardExample_OpenSystemKeyboard_m9BD2817D17BAEB8FE0C5D35EDF4947240329A042 (void);
+// 0x00000051 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Start()
+extern void SystemKeyboardExample_Start_m6B4779381CC80DC830F3C76406E75A3150A0564B (void);
+// 0x00000052 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Update()
+extern void SystemKeyboardExample_Update_mEBC6768FDE887113E9C86D9EA09A2C9D1E851F23 (void);
+// 0x00000053 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::.ctor()
+extern void SystemKeyboardExample__ctor_mE3E324EF9F9159533B8AEDE89FA1F02216CC227D (void);
+// 0x00000054 System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::get_DistanceThreshold()
+extern void TetheredPlacement_get_DistanceThreshold_m69455E3940DBC306E5D7B92D3C3BC9FC6F7E3264 (void);
+// 0x00000055 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::set_DistanceThreshold(System.Single)
+extern void TetheredPlacement_set_DistanceThreshold_m5524A2BBB89E21EC7B39D181562C28C6BE897169 (void);
+// 0x00000056 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::Start()
+extern void TetheredPlacement_Start_mEB6C4989B61651853D9AE6259765F5C67BD16092 (void);
+// 0x00000057 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LateUpdate()
+extern void TetheredPlacement_LateUpdate_m9BBC1F0262D9430F60EB2353CB33BE36CC82ECB2 (void);
+// 0x00000058 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LockSpawnPoint()
+extern void TetheredPlacement_LockSpawnPoint_m0F437637778DE779C046B8450C184B98D80DB230 (void);
+// 0x00000059 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::.ctor()
+extern void TetheredPlacement__ctor_mB4266A14A1AC6DB8282FC58FAA85C86EF5A45F25 (void);
+// 0x0000005A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::Awake()
+extern void ToggleBoundingBox_Awake_mCB0371F1DF5F44D3FAB2417C925A337275BA9D2B (void);
+// 0x0000005B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::ToggleBoundingBoxActiveState()
+extern void ToggleBoundingBox_ToggleBoundingBoxActiveState_mA19D26CE4211EAFA2C03278F28F4AA21F09F69A4 (void);
+// 0x0000005C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::.ctor()
+extern void ToggleBoundingBox__ctor_m3F71A30BF46D15049AAFE21F2547C66B1CDBE898 (void);
+// 0x0000005D System.Void Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::Awake()
+extern void YYSXHandVisualizer_Awake_m5D7EA67F3ED58411A30A5BE5AB91BFFB1FC7F4C7 (void);
+// 0x0000005E System.Void Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::Start()
+extern void YYSXHandVisualizer_Start_m8EA7523FCA8C17D7A5C6BB7E4DF70A0098C341E0 (void);
+// 0x0000005F System.Void Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::OnDestroy()
+extern void YYSXHandVisualizer_OnDestroy_mBDDCBB7AEBF753EB24A4F885243F50FD6D223B69 (void);
+// 0x00000060 System.Boolean Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::UpdateHandJoints()
+extern void YYSXHandVisualizer_UpdateHandJoints_m8AB011D3D510B5618823A71A645CD7CACCFC1403 (void);
+// 0x00000061 UnityEngine.Transform Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::GetJointTransform(Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint)
+extern void YYSXHandVisualizer_GetJointTransform_m60A317D7FB06B07252A617B4D7D07911A84A8937 (void);
+// 0x00000062 System.Void Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::UpdateMeshAndReturnJointPosition(Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose[])
+extern void YYSXHandVisualizer_UpdateMeshAndReturnJointPosition_m59EE07654B4C8B76AE01BDD63D38A6FC105D9B88 (void);
+// 0x00000063 System.Void Microsoft.MixedReality.Toolkit.Input.YYSXHandVisualizer::.ctor()
+extern void YYSXHandVisualizer__ctor_m538B99FAB3D8E3D28CB86F247FC4B7E5AD786C74 (void);
+// 0x00000064 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXHMD::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void YYSXHMD__ctor_mD9FB2EE757AF0759938EFDEA5E022A76F58D2E6C (void);
+// 0x00000065 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXHMDDefinition::.ctor(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void YYSXHMDDefinition__ctor_m480C37F97AFC6F014C242807BB356344360758A0 (void);
+// 0x00000066 Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionMapping[] Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXHMDDefinition::get_DefaultMappings()
+extern void YYSXHMDDefinition_get_DefaultMappings_mB23B059B86BCA4FC7A350C528DBD1838FA110F54 (void);
+// 0x00000067 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXMotionController6Dof::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void YYSXMotionController6Dof__ctor_m0CCADDED44A4E22B4688513EBF71C387F5658A35 (void);
+// 0x00000068 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXMotionController6DofDefinition::.ctor(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void YYSXMotionController6DofDefinition__ctor_mA5A82EFCA807F113FF482C99FFAA9367FBE85C09 (void);
+// 0x00000069 Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionMapping[] Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXMotionController6DofDefinition::get_DefaultLeftHandedMappings()
+extern void YYSXMotionController6DofDefinition_get_DefaultLeftHandedMappings_mEFE73DB5CA87F4B05C632A25AC682F7CC0D5C187 (void);
+// 0x0000006A System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void YYSXArticulatedHand__ctor_m207F7E2B89279503DC453BE63440E10E3CB88BB9 (void);
+// 0x0000006B System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::get_IsPinching()
+extern void YYSXArticulatedHand_get_IsPinching_m3CE2FA087756051AC6EDDA2B97204CAC0F172866 (void);
+// 0x0000006C System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::get_IsGrabbing()
+extern void YYSXArticulatedHand_get_IsGrabbing_m49A60AFEA29E72690AD76D62B3799A713754FEFD (void);
+// 0x0000006D System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::TryGetJoint(Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose&)
+extern void YYSXArticulatedHand_TryGetJoint_m820C2D37DDF536F78E9345D704CDD513AE42FB32 (void);
+// 0x0000006E System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::get_IsInPointingPose()
+extern void YYSXArticulatedHand_get_IsInPointingPose_m1E6E0BE5740105A4E5A4B7C76C02614BE933766D (void);
+// 0x0000006F System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::UpdateController(UnityEngine.XR.InputDevice)
+extern void YYSXArticulatedHand_UpdateController_m364EA41E8619D9CD9F1800A70032C7F260B7FA9A (void);
+// 0x00000070 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::UpdateHandData(UnityEngine.XR.InputDevice)
+extern void YYSXArticulatedHand_UpdateHandData_mA95886D3E3D0394561F94DF1FFC35FCC62DE8DC6 (void);
+// 0x00000071 System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::get_YYSX_IsPinching()
+extern void YYSXArticulatedHand_get_YYSX_IsPinching_m39C0D72FF2A87380230FA415709C9A98854EB4DF (void);
+// 0x00000072 System.Single Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::IndexGrabbingAngle(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void YYSXArticulatedHand_IndexGrabbingAngle_m91603ED34AE3BE903ED0992813ABD40A348B86DA (void);
+// 0x00000073 System.Int32 Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::ConvertToArrayIndex(UnityEngine.XR.HandFinger,System.Int32)
+extern void YYSXArticulatedHand_ConvertToArrayIndex_mF277C3F46BEBD9EE995CEE469539EA5BE4A57347 (void);
+// 0x00000074 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXArticulatedHand::.cctor()
+extern void YYSXArticulatedHand__cctor_m2B3A5C59E205AA463C42CF24236D65D07ECA3315 (void);
+// 0x00000075 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::.ctor(Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSystem,System.String,System.UInt32,Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile)
+extern void YYSXDeviceManager__ctor_m0B11AB5CBC24DB9C14FDD653DFBEAF5FCC369C3B (void);
+// 0x00000076 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::yyss_unityxr_setHand(System.Boolean)
+extern void YYSXDeviceManager_yyss_unityxr_setHand_m0E848019E416A9802878BB40B832E53FA6392A49 (void);
+// 0x00000077 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::YYSS_unityxr_setHand(System.Boolean)
+extern void YYSXDeviceManager_YYSS_unityxr_setHand_mB472297AB56A45EF9F912DFBAFF579B30F29B71B (void);
+// 0x00000078 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::GetHandsDataNative()
+extern void YYSXDeviceManager_GetHandsDataNative_m1EF20CE36C287C21F95F90A14C349D9815C6726C (void);
+// 0x00000079 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::YYSS_GetHandsDataNative()
+extern void YYSXDeviceManager_YYSS_GetHandsDataNative_mD1FA5C316343250CD68DB6413E723EEAA4A974E3 (void);
+// 0x0000007A System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::Enable()
+extern void YYSXDeviceManager_Enable_m45C58C80C871F8839B7406F29F5455C9F5898CC1 (void);
+// 0x0000007B System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::OnApplicationPauseEvent(System.Boolean)
+extern void YYSXDeviceManager_OnApplicationPauseEvent_m928053AAB9FE60599C050C5487BFAD08E64139B1 (void);
+// 0x0000007C System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::Disable()
+extern void YYSXDeviceManager_Disable_m8EB801B396119AF9067C96C199867F9043C09D47 (void);
+// 0x0000007D System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::Update()
+extern void YYSXDeviceManager_Update_m991EC53E1724D3456086AE9C943C29F81EC5F317 (void);
+// 0x0000007E System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::logicTwo()
+extern void YYSXDeviceManager_logicTwo_m16806D076B6C057F073B09F87080B5A23429355F (void);
+// 0x0000007F System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::logicOne()
+extern void YYSXDeviceManager_logicOne_mECB6BD070B21832A3A90601B9E8F505DC8689C11 (void);
+// 0x00000080 Microsoft.MixedReality.Toolkit.Input.SupportedControllerType Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::GetCurrentControllerType(UnityEngine.XR.InputDevice)
+extern void YYSXDeviceManager_GetCurrentControllerType_m64B2F7A12356319A35B0EC2922C3299B74196574 (void);
+// 0x00000081 System.Type Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::GetControllerType(Microsoft.MixedReality.Toolkit.Input.SupportedControllerType)
+extern void YYSXDeviceManager_GetControllerType_m31DEFDC25B933C05CE6DB3E158CCA4B144852644 (void);
+// 0x00000082 Microsoft.MixedReality.Toolkit.Input.InputSourceType Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::GetInputSourceType(Microsoft.MixedReality.Toolkit.Input.SupportedControllerType)
+extern void YYSXDeviceManager_GetInputSourceType_m9116ABF1C44880095D4CC088276D38D5916902B5 (void);
+// 0x00000083 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManager::.cctor()
+extern void YYSXDeviceManager__cctor_mF5660BFF9FF54B286AADDF592E017104943714B8 (void);
+// 0x00000084 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono::Start()
+extern void YYSXDeviceManagerMono_Start_mABF414A88B126638089F2BEF2CFAED67656882C0 (void);
+// 0x00000085 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono::Update()
+extern void YYSXDeviceManagerMono_Update_m2973367996DC0BFE1AC760476B4E9CF47D2ACFF2 (void);
+// 0x00000086 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono::OnApplicationPause(System.Boolean)
+extern void YYSXDeviceManagerMono_OnApplicationPause_mCAED337B5DF4CFD89FF1A03BE22BC89B00C24ACE (void);
+// 0x00000087 System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono::delayFunc(System.Int32,System.Boolean)
+extern void YYSXDeviceManagerMono_delayFunc_m005B05EB1DE8D8DD5DAAD178068813728F67F0AC (void);
+// 0x00000088 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono::.ctor()
+extern void YYSXDeviceManagerMono__ctor_m8DE4670748DEA50C6B324AA355E64CDC464E6D63 (void);
+// 0x00000089 System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::.ctor(System.Int32)
+extern void U3CdelayFuncU3Ed__5__ctor_mD2B598DEE45CE894AA78C066AAA2953109A608B4 (void);
+// 0x0000008A System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::System.IDisposable.Dispose()
+extern void U3CdelayFuncU3Ed__5_System_IDisposable_Dispose_mC8C34FF2E8AD182582CE8D16F8B34DEB00825468 (void);
+// 0x0000008B System.Boolean Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::MoveNext()
+extern void U3CdelayFuncU3Ed__5_MoveNext_mB81A4C2E35D5A5D8844FE6AA030F5E229DF126CE (void);
+// 0x0000008C System.Object Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CdelayFuncU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0AEFB28C72BEF4BF4317DA063147B0F6F51C1DE3 (void);
+// 0x0000008D System.Void Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CdelayFuncU3Ed__5_System_Collections_IEnumerator_Reset_m076C39D1BF84C67AD75E38A264D5A5C92324D77F (void);
+// 0x0000008E System.Object Microsoft.MixedReality.Toolkit.YYSX.XRSDK.Input.YYSXDeviceManagerMono/<delayFunc>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CdelayFuncU3Ed__5_System_Collections_IEnumerator_get_Current_m6A2B38FD1CC3F32C8930A9091F56F90A4DE4271B (void);
+static Il2CppMethodPointer s_methodPointers[142] = 
+{
+	GestureRecognizer_Start_mFA74CCE0A831D27630D1B03EFF2D3A8C9D93DC49,
+	GestureRecognizer_Update_mF321E4A4C562A1ACD31BAA81A08051D050A34962,
+	GestureRecognizer_JointList_m3D76232BEED6B30BD4BE529D00F2FB6E02A1BA28,
+	GestureRecognizer_Vector3DAngle_m21A5AB56414044BF816F1B7E7167B112A2A1B79F,
+	GestureRecognizer_HandAngle_m8101F0A5BD5F08A4594F71A37AA0294DD38ECD66,
+	GestureRecognizer_PlamDirection_m8FC2BB599D99DCE80270C3E23EA00E17D61F914C,
+	GestureRecognizer_Recognize_m76FFFA8FF77DA4473AF5509FE7565B4C580C5957,
+	GestureRecognizer__ctor_mBDCE83E6A76A461F411EEC1F93F8C989F7880A84,
+	Fps_Start_m9C79DA3D2C07ED8343BAA67D9A3745B68270C96B,
+	Fps_Update_mDB287E395C2721897A9D0B563FA0E985B3335D86,
+	Fps_CalculateFramesPerSecond_m7DAE4D18DB3083D5B39C533D0774CC4B489C30AA,
+	Fps__ctor_m37F1D3B50A65F61E1635B55AD38403DBD9BED409,
+	U3CCalculateFramesPerSecondU3Ed__6__ctor_m44490EF1E06B441016B8B753D23E63B9FF345B7B,
+	U3CCalculateFramesPerSecondU3Ed__6_System_IDisposable_Dispose_m3122D814B155D0C2C7C48A1C8F1C93A7878B68E3,
+	U3CCalculateFramesPerSecondU3Ed__6_MoveNext_m00B30B7E05CD9775C842965B38463D28F4E30573,
+	U3CCalculateFramesPerSecondU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA5ED2D42635D6EFC47EDFA639721D6604FC5324,
+	U3CCalculateFramesPerSecondU3Ed__6_System_Collections_IEnumerator_Reset_m81726BA8B57BAB7FEB0AF5B79362371AE60CBE78,
+	U3CCalculateFramesPerSecondU3Ed__6_System_Collections_IEnumerator_get_Current_m432294D7BC5B83D87C859266F49753AEA7A488B2,
+	TestHandData_Start_m43A8AF5A52D2EB09F36E0E226663CBED7F2AD7CD,
+	TestHandData_Update_mAFDF7F69C5E2287692EF767638FB916FCDFA104A,
+	TestHandData__ctor_m75DDAF098C9079FD215BDE70FA56F78E7E9D3A64,
+	XRSimulator_Awake_m8BEAF99D099764C89548BD2CE966787F2EC7348B,
+	XRSimulator_OnDestroy_m0E25BE1400D95BDF5EC7FF9AB0A6786DD09A2B1D,
+	XRSimulator_Update_m3C4A88B2E38DD07127AD46E3634782684075FE92,
+	XRSimulator_ProcessPoseInput_m3DD106DABC9F0EF5AA182E61FE8DA9685B1AA848,
+	XRSimulator_ProcessControlInput_mBA14C2E6844AA01053638F62F084D5593BC9B6F0,
+	XRSimulator_AddDevices_m58515A8B56F47C00A674AEE2D9210FB75001DCF2,
+	XRSimulator_RemoveDevices_m66B1D0EC9DABBABA1EDCBEF9EC79D4F7FB40005E,
+	XRSimulator__ctor_mA052E26FBBBD081FFE5585D44A8E5370B80DA50A,
+	GestureTester_OnEnable_m9AADD8392DD6B7F1426E64893B3F4BAC46A4BC07,
+	GestureTester_OnGestureStarted_mCF1BE4F1FF22393623C32F1B0E6AC54F91BE297E,
+	GestureTester_OnGestureUpdated_mF46446A8F728105F119FB700455D39E512163CD4,
+	GestureTester_OnGestureUpdated_m87C7C00F3CDF1CD9EEB1ADE6FB76213503ACB3CB,
+	GestureTester_OnGestureCompleted_m4666AFD1E4F059552A9D39D985F71F8E84F8E0CE,
+	GestureTester_OnGestureCompleted_m7C0B5A3C601B167666063099914A8F2E918A68AC,
+	GestureTester_OnGestureCanceled_mB0BAF7B49FCA4856600B4D0BABB7EDC6A04FEB3E,
+	GestureTester_SetIndicator_mD5DDB1BCEE0E02E3B3F15978868F540017B13CE8,
+	GestureTester_SetIndicator_m28F3812D5118DB72C0471412FFDA3AF75BE9BE01,
+	GestureTester_ShowRails_mC8E3453E111E72C2E5D3A5154396B1B06C4837F8,
+	GestureTester_HideRails_mF951FABE031588F25EEE7AFFAD0449CAA21650C1,
+	GestureTester__ctor_m59B2BD41A6257BE9E46109314FDF03DBC13A5E22,
+	GrabTouchExample_Awake_mF1A7CF657D2BF3845A6F5013CAAA2ED3B4871518,
+	GrabTouchExample_OnInputDown_m4F2432C631F68039D2A4D58A9A191163F060FC1C,
+	GrabTouchExample_OnInputUp_m3ABADEBABE435C956571436FA9DD6829B97206F3,
+	GrabTouchExample_OnInputPressed_m22B8A5F55A79FB4B22740CE58C862D2207686EA6,
+	GrabTouchExample_OnPositionInputChanged_mAFD365CD4F7BC572E1BB69E2BA93B7093B59902C,
+	GrabTouchExample_OnTouchCompleted_m6A65545CD38255D5C8A0E8DD3958B1428FCF61EB,
+	GrabTouchExample_OnTouchStarted_m8509F80B2EFE35C934A2BE96A4096EBAAA9AEFF9,
+	GrabTouchExample_OnTouchUpdated_m602E0527A4C57151F74EA6CFA069228312CFAAF1,
+	GrabTouchExample__ctor_m9EAD45E5FACBABD21087D76A284094AA74AF644B,
+	LeapMotionOrientationDisplay__ctor_mB03351C717D53DF299B4F817B344562D94AC9315,
+	RotateWithPan_OnEnable_m119D06CDEDB9960441C6A9EB52E0E3156526F6FC,
+	RotateWithPan_OnDisable_mE66C37D891C63D16C57B9C42FB46DE6CCAE577D0,
+	RotateWithPan_OnPanEnded_m5DCB7ADB80553546E0EB418824D1C193DB29F52E,
+	RotateWithPan_OnPanning_mAAEE5025B70EA41A405EFE3E97AF94FAC9547827,
+	RotateWithPan_OnPanStarted_m53911BBAB7CC74996FF05BB38F1CA5CF74CCCDF3,
+	RotateWithPan__ctor_m75092EEC95C572006C07A392B333F4862347E21D,
+	DebugTextOutput_SetTextWithTimestamp_m62F3F7E77B050521F6378455ED8784C44FB82278,
+	DebugTextOutput__ctor_mC1F2AC69FFEC0E69567A3D525D2FA49E9E28B3A9,
+	DemoTouchButton_Awake_m83BAA3AAE898955C5D1A805ED49145A6B28BE6E0,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m022BD52F7B9375F565C9819C36F4E99FD7423588,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_mB4D0A6210C60B243DAE610CEF15FC8D9B64F1A7A,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m12F427DE21A0E72EBFFDA28770B73E72373503C4,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_m13D7ABD2DD39019470E32028659BBD8476190E20,
+	DemoTouchButton__ctor_mF7D651379967BF470D6AE876C18D80D4594F6323,
+	HandInteractionTouch_Start_mC4C9FE251E5C7099CFFF986F81A7DD8CB8DAD8B7,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_mB132E11E21B6CA0B22CF0BE1176C396D07275B06,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_mCC8AF20A81FD38F193253887392F484612DDEB48,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mB2961B642338C4BAF9AFCBA197011B8B4DB2E116,
+	HandInteractionTouch__ctor_m2BAF73805C7E05C4BA70E87DE0C43EC77D38E7BC,
+	HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mAC47B7F4FFEB871D99BAB41BD24F1070EC7C394A,
+	HandInteractionTouchRotate__ctor_mD76C9936325A4491C17BA2317A07E0958ED9E6C8,
+	LaunchUri_Launch_m3288F46EF18446AE7EFBCC5D012A4E7BB11BB43C,
+	LaunchUri__ctor_m7FA1E45963920ECD98D27F0CCF13FE265224C265,
+	LeapCoreAssetsDetector_Start_m23798D463B5CC0D836ED7BB4C22BD8A4149AD97A,
+	LeapCoreAssetsDetector__ctor_m16AB1C5D1007014CC9E23A0F530275A969A1E15A,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m26CDA8F1F58F139EBB2950BF4FEC98CC4A2CDAFA,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m5053FCEF017B9D73200DDB0FDF2886AB46A5A1A0,
+	SolverTrackedTargetType__ctor_m53B326829C5A2A45B5E608A12A47908BF01415A4,
+	SystemKeyboardExample_OpenSystemKeyboard_m9BD2817D17BAEB8FE0C5D35EDF4947240329A042,
+	SystemKeyboardExample_Start_m6B4779381CC80DC830F3C76406E75A3150A0564B,
+	SystemKeyboardExample_Update_mEBC6768FDE887113E9C86D9EA09A2C9D1E851F23,
+	SystemKeyboardExample__ctor_mE3E324EF9F9159533B8AEDE89FA1F02216CC227D,
+	TetheredPlacement_get_DistanceThreshold_m69455E3940DBC306E5D7B92D3C3BC9FC6F7E3264,
+	TetheredPlacement_set_DistanceThreshold_m5524A2BBB89E21EC7B39D181562C28C6BE897169,
+	TetheredPlacement_Start_mEB6C4989B61651853D9AE6259765F5C67BD16092,
+	TetheredPlacement_LateUpdate_m9BBC1F0262D9430F60EB2353CB33BE36CC82ECB2,
+	TetheredPlacement_LockSpawnPoint_m0F437637778DE779C046B8450C184B98D80DB230,
+	TetheredPlacement__ctor_mB4266A14A1AC6DB8282FC58FAA85C86EF5A45F25,
+	ToggleBoundingBox_Awake_mCB0371F1DF5F44D3FAB2417C925A337275BA9D2B,
+	ToggleBoundingBox_ToggleBoundingBoxActiveState_mA19D26CE4211EAFA2C03278F28F4AA21F09F69A4,
+	ToggleBoundingBox__ctor_m3F71A30BF46D15049AAFE21F2547C66B1CDBE898,
+	YYSXHandVisualizer_Awake_m5D7EA67F3ED58411A30A5BE5AB91BFFB1FC7F4C7,
+	YYSXHandVisualizer_Start_m8EA7523FCA8C17D7A5C6BB7E4DF70A0098C341E0,
+	YYSXHandVisualizer_OnDestroy_mBDDCBB7AEBF753EB24A4F885243F50FD6D223B69,
+	YYSXHandVisualizer_UpdateHandJoints_m8AB011D3D510B5618823A71A645CD7CACCFC1403,
+	YYSXHandVisualizer_GetJointTransform_m60A317D7FB06B07252A617B4D7D07911A84A8937,
+	YYSXHandVisualizer_UpdateMeshAndReturnJointPosition_m59EE07654B4C8B76AE01BDD63D38A6FC105D9B88,
+	YYSXHandVisualizer__ctor_m538B99FAB3D8E3D28CB86F247FC4B7E5AD786C74,
+	YYSXHMD__ctor_mD9FB2EE757AF0759938EFDEA5E022A76F58D2E6C,
+	YYSXHMDDefinition__ctor_m480C37F97AFC6F014C242807BB356344360758A0,
+	YYSXHMDDefinition_get_DefaultMappings_mB23B059B86BCA4FC7A350C528DBD1838FA110F54,
+	YYSXMotionController6Dof__ctor_m0CCADDED44A4E22B4688513EBF71C387F5658A35,
+	YYSXMotionController6DofDefinition__ctor_mA5A82EFCA807F113FF482C99FFAA9367FBE85C09,
+	YYSXMotionController6DofDefinition_get_DefaultLeftHandedMappings_mEFE73DB5CA87F4B05C632A25AC682F7CC0D5C187,
+	YYSXArticulatedHand__ctor_m207F7E2B89279503DC453BE63440E10E3CB88BB9,
+	YYSXArticulatedHand_get_IsPinching_m3CE2FA087756051AC6EDDA2B97204CAC0F172866,
+	YYSXArticulatedHand_get_IsGrabbing_m49A60AFEA29E72690AD76D62B3799A713754FEFD,
+	YYSXArticulatedHand_TryGetJoint_m820C2D37DDF536F78E9345D704CDD513AE42FB32,
+	YYSXArticulatedHand_get_IsInPointingPose_m1E6E0BE5740105A4E5A4B7C76C02614BE933766D,
+	YYSXArticulatedHand_UpdateController_m364EA41E8619D9CD9F1800A70032C7F260B7FA9A,
+	YYSXArticulatedHand_UpdateHandData_mA95886D3E3D0394561F94DF1FFC35FCC62DE8DC6,
+	YYSXArticulatedHand_get_YYSX_IsPinching_m39C0D72FF2A87380230FA415709C9A98854EB4DF,
+	YYSXArticulatedHand_IndexGrabbingAngle_m91603ED34AE3BE903ED0992813ABD40A348B86DA,
+	YYSXArticulatedHand_ConvertToArrayIndex_mF277C3F46BEBD9EE995CEE469539EA5BE4A57347,
+	YYSXArticulatedHand__cctor_m2B3A5C59E205AA463C42CF24236D65D07ECA3315,
+	YYSXDeviceManager__ctor_m0B11AB5CBC24DB9C14FDD653DFBEAF5FCC369C3B,
+	YYSXDeviceManager_yyss_unityxr_setHand_m0E848019E416A9802878BB40B832E53FA6392A49,
+	YYSXDeviceManager_YYSS_unityxr_setHand_mB472297AB56A45EF9F912DFBAFF579B30F29B71B,
+	YYSXDeviceManager_GetHandsDataNative_m1EF20CE36C287C21F95F90A14C349D9815C6726C,
+	YYSXDeviceManager_YYSS_GetHandsDataNative_mD1FA5C316343250CD68DB6413E723EEAA4A974E3,
+	YYSXDeviceManager_Enable_m45C58C80C871F8839B7406F29F5455C9F5898CC1,
+	YYSXDeviceManager_OnApplicationPauseEvent_m928053AAB9FE60599C050C5487BFAD08E64139B1,
+	YYSXDeviceManager_Disable_m8EB801B396119AF9067C96C199867F9043C09D47,
+	YYSXDeviceManager_Update_m991EC53E1724D3456086AE9C943C29F81EC5F317,
+	YYSXDeviceManager_logicTwo_m16806D076B6C057F073B09F87080B5A23429355F,
+	YYSXDeviceManager_logicOne_mECB6BD070B21832A3A90601B9E8F505DC8689C11,
+	YYSXDeviceManager_GetCurrentControllerType_m64B2F7A12356319A35B0EC2922C3299B74196574,
+	YYSXDeviceManager_GetControllerType_m31DEFDC25B933C05CE6DB3E158CCA4B144852644,
+	YYSXDeviceManager_GetInputSourceType_m9116ABF1C44880095D4CC088276D38D5916902B5,
+	YYSXDeviceManager__cctor_mF5660BFF9FF54B286AADDF592E017104943714B8,
+	YYSXDeviceManagerMono_Start_mABF414A88B126638089F2BEF2CFAED67656882C0,
+	YYSXDeviceManagerMono_Update_m2973367996DC0BFE1AC760476B4E9CF47D2ACFF2,
+	YYSXDeviceManagerMono_OnApplicationPause_mCAED337B5DF4CFD89FF1A03BE22BC89B00C24ACE,
+	YYSXDeviceManagerMono_delayFunc_m005B05EB1DE8D8DD5DAAD178068813728F67F0AC,
+	YYSXDeviceManagerMono__ctor_m8DE4670748DEA50C6B324AA355E64CDC464E6D63,
+	U3CdelayFuncU3Ed__5__ctor_mD2B598DEE45CE894AA78C066AAA2953109A608B4,
+	U3CdelayFuncU3Ed__5_System_IDisposable_Dispose_mC8C34FF2E8AD182582CE8D16F8B34DEB00825468,
+	U3CdelayFuncU3Ed__5_MoveNext_mB81A4C2E35D5A5D8844FE6AA030F5E229DF126CE,
+	U3CdelayFuncU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0AEFB28C72BEF4BF4317DA063147B0F6F51C1DE3,
+	U3CdelayFuncU3Ed__5_System_Collections_IEnumerator_Reset_m076C39D1BF84C67AD75E38A264D5A5C92324D77F,
+	U3CdelayFuncU3Ed__5_System_Collections_IEnumerator_get_Current_m6A2B38FD1CC3F32C8930A9091F56F90A4DE4271B,
+};
+static const int32_t s_InvokerIndices[142] = 
+{
+	6361,
+	6361,
+	2187,
+	178,
+	4476,
+	4662,
+	824,
+	6361,
+	6361,
+	6361,
+	6237,
+	6361,
+	5019,
+	6361,
+	6118,
+	6237,
+	6361,
+	6237,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	5060,
+	5060,
+	5060,
+	5060,
+	5060,
+	5060,
+	1493,
+	1041,
+	5159,
+	6361,
+	6361,
+	6361,
+	5060,
+	5060,
+	5060,
+	5060,
+	5060,
+	5060,
+	5060,
+	6361,
+	6361,
+	6361,
+	6361,
+	5060,
+	5060,
+	5060,
+	6361,
+	5060,
+	6361,
+	6361,
+	5060,
+	5060,
+	5060,
+	5060,
+	6361,
+	6361,
+	5060,
+	5060,
+	5060,
+	6361,
+	5060,
+	6361,
+	5060,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6291,
+	5105,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6361,
+	6118,
+	4471,
+	5060,
+	6361,
+	931,
+	4941,
+	6237,
+	931,
+	4941,
+	6237,
+	931,
+	6118,
+	6118,
+	1666,
+	6118,
+	5010,
+	5010,
+	6118,
+	4566,
+	1949,
+	9671,
+	1046,
+	9448,
+	9448,
+	9671,
+	9671,
+	6361,
+	4941,
+	6361,
+	6361,
+	6361,
+	6361,
+	4153,
+	4471,
+	4159,
+	9671,
+	6361,
+	6361,
+	4941,
+	2174,
+	6361,
+	5019,
+	6361,
+	6118,
+	6237,
+	6361,
+	6237,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	142,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

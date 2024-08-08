@@ -9517,7 +9517,7 @@ IL_012a:
 
 IL_0135:
 	{
-		// else if (angleList[0] <= 40
+		// else if (angleList[0] <= 25
 		//     && (angleList[1] <= 80)
 		//     && (angleList[2] >= 100)
 		//     && (angleList[3] >= 100)
@@ -9526,7 +9526,7 @@ IL_0135:
 		NullCheck(L_48);
 		int32_t L_49 = 0;
 		float L_50 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
-		if ((!(((float)L_50) <= ((float)(40.0f)))))
+		if ((!(((float)L_50) <= ((float)(25.0f)))))
 		{
 			goto IL_01b9;
 		}

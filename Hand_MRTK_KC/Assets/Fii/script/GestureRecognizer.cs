@@ -265,7 +265,7 @@ public class GestureRecognizer : MonoBehaviour
                         else OutputGesture = "nothing";
                     }
                 }
-                else if (angleList[0] <= 40
+                else if (angleList[0] <= 25
                     && (angleList[1] <= 80)
                     && (angleList[2] >= 100)
                     && (angleList[3] >= 100)
